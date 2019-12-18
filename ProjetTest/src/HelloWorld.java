@@ -17,6 +17,7 @@ public class HelloWorld {
 		System.out.println("la vie est belle");
 		System.out.println("Mais difficile");
 		System.out.println("La baise !");
-		System.out.println ("Game over");
+		System.out.println("Game over");
+		System.out.println("Hello");
 	}
 }
