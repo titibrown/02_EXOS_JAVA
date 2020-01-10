@@ -14,12 +14,9 @@ public class Perirec {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
-		
 		System.out.println("Caclculer le périmètre d'un rectangle");
 		Scanner sc = new Scanner(System.in);	
+		
 		double longueur;
 		double largeur;
 		double perimètre;
