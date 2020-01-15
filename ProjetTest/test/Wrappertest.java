@@ -2,7 +2,6 @@
  * 
  */
 
-
 /**
  * @author CRM
  *
@@ -20,15 +19,13 @@ public class Wrappertest {
 //		float f = Float.parseFloat("123.1f");
 
 //		System.out.println(i);
-	//	System.out.println(f);
-		
-	int i;
-	String str;
-	str ="568";
-	i = Integer.parseInt(str);
-	System.out.println(i);
-			
-		
-		
+		// System.out.println(f);
+
+		int i;
+		String str;
+		str = "568";
+		i = Integer.parseInt(str);
+		System.out.println(i);
+
 	}
 }

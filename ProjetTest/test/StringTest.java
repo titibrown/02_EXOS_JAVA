@@ -22,6 +22,9 @@ public class StringTest {
 		texte = "hello";
 		System.out.println(texte);
 
+		
+		//nombre de caractère
+		
 		String str = "java c'est compliqué";
 		System.out.println(str.length());
 		
@@ -44,8 +47,13 @@ public class StringTest {
 		String str3 = str1.trim();
 		System.out.println(str3);
 		
-		
-		
+		//comparaison de chaines
+		String chaine1 = "test";
+		String chaine2 ="test1";
+		System.out.println(chaine1.equals(chaine2));			
+		//String chaine1 = "test";
+		//String chaine2 ="TEST";
+		//System.out.println(chaine1.equalsIgnoreCase(chaine2));
 		
 		
 		
