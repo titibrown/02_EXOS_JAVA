@@ -54,4 +54,14 @@ public class Utils {
 	public static void afficherMessage1(String texte) {
 		System.out.println(texte);
 	}
+
+	public static int lireEntier(String string) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public static char lireCaractere(String string) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

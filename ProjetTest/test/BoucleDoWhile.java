@@ -17,7 +17,9 @@ public class BoucleDoWhile {
 		do {
 			System.out.println("i=" + i);
 			i++;
-		} while (i < 10);
+		} 
+		
+		while (i < 10);
 
 	}
 
