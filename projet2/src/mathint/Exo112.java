@@ -18,7 +18,7 @@ public class Exo112
 		int		nombre;
 		int		nombre2;
 		float	moyenne;
-		String	réponse;
+		String	réponse = null;
 		
 		System.out.println("Veuillez saisir un nombre");		
 		nombre = sc.nextInt();
