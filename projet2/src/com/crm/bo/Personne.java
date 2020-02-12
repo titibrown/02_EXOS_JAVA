@@ -1,6 +1,7 @@
 package com.crm.bo;
 
 import java.util.Date;
+import java.util.Scanner;
 
 public class Personne {
 //
@@ -10,7 +11,7 @@ public class Personne {
 	private String nom;
 	private String prenom;
 	protected Date dateNaissance;
-
+	
 	// Constructeurs
 
 	public Personne() {
@@ -48,19 +49,17 @@ public class Personne {
 
 	}
 
-	
-	public int incrementeNombre (int nb ) {
+	public int incrementeNombre(int nb) {
 		return nb++;
-		
+
 	}
-	
-	public void modifierPersonne (Personne pers) {
+
+	public void modifierPersonne(Personne pers) {
 		pers.nom.toUpperCase();
 		pers.prenom.toUpperCase();
-		
-		
-		
+
 	}
+
 	// Méthode qui modifie la Valeur de l'attribut nom
 	public void setNom(String n) {
 
@@ -84,7 +83,16 @@ public class Personne {
 
 	public void afficherDetails() {
 		System.out.println(prenom + nom + surnom);
+	}
 
+//	}
+
+	public void afficherDetails(String langue) {
+		if (langue.equals("Français")) {
+			System.out.println("bonjour vous êtes: " + prenom + "," + nom + "," + surnom);
+		}
+		if (langue.equals("Anglais"))
+			System.out.println("Hello you are: " + prenom + "," + nom + "," + surnom);
 	}
 
 }

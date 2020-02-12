@@ -1,5 +1,7 @@
 package com.crm.boapp;
 
+import java.util.Scanner;
+
 import com.crm.bo.Rectangle;
 
 public class Rectangleapp {
@@ -21,11 +23,23 @@ public class Rectangleapp {
 //		3/ Créer la classe de test avec des interactions utilisateur(package com.crm.boapp)
 //		N.B : ne pas créer de méthodes statiques
 
+	
 		
-		Rectangle rec1 = new Rectangle(2,3);
-		rec1.afficherdetail();
+		Scanner sc = new Scanner(System.in);
+		Rectangle rect1 = new Rectangle();		
 		
-		
-	}
+		System.out.println("Entrer la longueur");
+		rect1.setLongueur((int) sc.nextFloat());
+		System.out.println("Entrer la largeur");
+		rect1.setLargeur((int) sc.nextFloat());
+				
 
+		////////////////////////////////////				
+//		Rectangle rec1 = new Rectangle();
+		rect1.afficherdetail();
+		///////////////////////////////////
+		sc.close();
+
+
+}
 }

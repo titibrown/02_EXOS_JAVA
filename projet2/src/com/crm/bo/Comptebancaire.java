@@ -1,16 +1,46 @@
-package com.crm.boapp;
+package com.crm.bo;
 
 public class Comptebancaire {
 	
 	
 	private int numCompte;
-    private double solde;
-    private double decouvert;
+    private float solde;
+    private float decouvert;
     private String prenomTitulaire;
     private String nomTitulaire;
     public double decouvertMax;
     private double retraitSolde;
 
+    public Comptebancaire () {
+    	
+    	numCompte =0;
+    	solde = 0;
+    	decouvert = 0;
+    	prenomTitulaire="";
+    	nomTitulaire="";
+    	decouvertMax=0;
+    	retraitSolde=0;
+    	    	
+    }
+    
+    public Comptebancaire (int numCompte,float solde,float decouvert,String prenomTitulaire,String nomTitulaire,double decouvertMax, double retraitSolde) {
+    	
+    	
+    	this.numCompte=numCompte;
+    	this.solde=solde;
+    	this.decouvert=decouvert;
+    	this.prenomTitulaire=prenomTitulaire;
+    	this.nomTitulaire=nomTitulaire;
+    	this.decouvertMax=decouvertMax;
+    	this.retraitSolde=retraitSolde;
+    
+    	
+    public 	
+    	
+    	
+    }
+        
+    
     public int getNumCompte() {
 		return numCompte;
 	}
@@ -20,13 +50,13 @@ public class Comptebancaire {
 	public double getSolde() {
 		return solde;
 	}
-	public void setSolde(double solde) {
+	public void setSolde(float solde) {
 		this.solde = solde;
 	}
 	public double getDecouvert() {
 		return decouvert;
 	}
-	public void setDecouvert(double decouvert) {
+	public void setDecouvert(float decouvert) {
 		this.decouvert = decouvert;
 	}
 	public String getPrenomTitulaire() {

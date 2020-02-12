@@ -48,6 +48,8 @@ public class PersonnApp {
 		pers4.modifierPersonne(pers5);
 		pers5.afficherDetails();
 		
+		pers5.afficherDetails("Anglais");
+		
 		
 		/////////////////////////////////////////////
 //		Scanner sc = new Scanner(System.in);

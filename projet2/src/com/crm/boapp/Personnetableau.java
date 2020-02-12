@@ -7,7 +7,7 @@ public class Personnetableau {
 
 	Scanner sc = new Scanner(System.in);
 	int nbPersonne = 0;System.out.println("De combien de personne se compose votre équipe ?")
-	nbPersonne=Integer.parseInt(sc.nextLine());
+	nbPersonne =Integer.parseInt(sc.nextLine());
 	Personne[] tabPers = new Personne[nbPersonne]; { // Déclaration d'un tableau d'objet de type Personne
 
 	// construction d'objets de type Personne pour chaque case du tableau
@@ -25,7 +25,7 @@ public class Personnetableau {
 	}System.out.println("\nListe des membres de l'équipe :");for(
 	Personne per:tabPers)
 	{
-		System.out.println(per.surnom + " (" + per.getPrenom() + " " + per.getNom() + ")");
+		System.out.println(per.surnom + " (" + per.getprenom() + " " + per.getNom() + ")");
 	}
 
 	sc.close();
