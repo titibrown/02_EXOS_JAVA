@@ -35,7 +35,11 @@ public class Comptebancaire {
     	this.retraitSolde=retraitSolde;
     
     	
-    public 	
+    public void retrait() {
+    	System.out.println("Vous avez effectué un retrait");
+    	
+    	
+    }
     	
     	
     }
