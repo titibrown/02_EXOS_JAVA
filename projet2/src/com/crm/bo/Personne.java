@@ -3,6 +3,12 @@ package com.crm.bo;
 import java.util.Date;
 import java.util.Scanner;
 
+/**
+ * @author Tim
+ * @version 1.0
+ * @since 24/02/2020
+ *
+ */
 public class Personne {
 //
 //	// Attributs
@@ -34,13 +40,17 @@ public class Personne {
 	/**
 	 * cette méthode renvoie la valeur de l'attribut nom
 	 * 
-	 * @return
+	 * @return retourne la valeur de l'attribut nom
 	 */
 	public String getNom() {
 		return nom;
 
 	}
 
+	/**
+	 * @param pers personne à comparer
+	 * @return booléen vrai/faux
+	 */
 	public boolean isEquals(Personne pers) {
 		if (this.prenom.equals(pers.prenom) && this.nom.contentEquals(pers.nom)) {
 			return true;

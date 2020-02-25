@@ -33,7 +33,7 @@ public class Comptebancaire {
     	this.nomTitulaire=nomTitulaire;
     	this.decouvertMax=decouvertMax;
     	this.retraitSolde=retraitSolde;
-    
+    }
     	
     public void retrait() {
     	System.out.println("Vous avez effectué un retrait");
@@ -42,7 +42,6 @@ public class Comptebancaire {
     }
     	
     	
-    }
         
     
     public int getNumCompte() {
